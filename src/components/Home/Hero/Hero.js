@@ -1,9 +1,14 @@
 import React from 'react'
+import GettingStarted from './Getting Started/GettingStarted'
+import Content from  './Content/Content'
+
 
 function Hero() {
     return (
         <div>
-            <h1>Hero Component</h1>
+          <Content/>    
+            <GettingStarted />
+            
         </div>
     )
 }

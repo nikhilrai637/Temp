@@ -1,11 +1,11 @@
 import React from 'react'
 
-function CS() {
+function CentralParagraph() {
     return (
         <div>
-            CS
+            
         </div>
     )
 }
 
-export default CS
+export default CentralParagraph
