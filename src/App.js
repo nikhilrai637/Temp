@@ -1,12 +1,19 @@
 import React from 'react';
-import Home from './components/Home/Home'
 import './App.css';
+import Home from './Home/Home'
+import {Route,Switch} from 'react-router-dom'
+ 
+import Domains from './Home/Domains/Domains';
 
 function App() {
   return (
-    <div className="App">
-       <Home/>
-    </div>
+    <div>    
+      
+      <Route path = "/home" component = {Home}/>
+      <Route path = "/Get_Start" component = {Domains}/>   
+     
+      </div>
+    
   );
 }
 
