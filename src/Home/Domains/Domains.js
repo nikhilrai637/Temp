@@ -24,7 +24,7 @@ function Domains() {
                   <Grid item xs={12} sm={8} style={{textAlign:"center"}}>
                       <Typography>
                         <Divider />
-                       <h1 style={{paddingBottom:"60px"}}>Chose your domain and start preparing</h1>
+                       <h1 style={{paddingBottom:"60px"}}>Chose your domain and start preparing.</h1>
                       </Typography>
                   </Grid>
               </Grid>
